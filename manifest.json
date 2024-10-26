@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Codex Bypass by Duke Bach",
+    "version": "1.0",
+    "description": "Checks if a page is redirected from another URL.",
+    "permissions": ["tabs","webRequest","webNavigation", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+    },
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+  }

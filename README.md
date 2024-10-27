@@ -2,7 +2,7 @@
 
 ![Codex Mobile Bypass Extension](https://img.shields.io/badge/Platform-Roblox-blue) ![Version](https://img.shields.io/badge/Version-1.0-brightgreen) ![License](https://img.shields.io/github/license/bach2206/executor-bypass)
 
-An extension for bypassing the key system in Codex, a popular mobile executor for Roblox, allowing users to access Codex without requiring a key input.
+An extension for bypassing the key system in Codex, a popular mobile executor for Roblox.
 
 > **Disclaimer:** This repository is for educational and testing purposes only. Using this software may violate Roblox's terms of service, and bypassing security systems can have legal consequences. Please use responsibly.
 

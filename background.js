@@ -7,7 +7,7 @@ chrome.webNavigation.onCompleted.addListener(function(details) {
     if (links.indexOf((details.url).split("/")[2]) != -1 && isNextPageBypass == true) {
         isNextPageBypass = false
         doBypass();
-    } else if ((details.url).split("/")[2] == "mobile.codex.lol") {
+    } else if ((details.url).split("/")[2] == "https://pandadevelopment.net") {
         isNextPageBypass = true
         codexTabId = details.tabId
     }
